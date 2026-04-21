@@ -7,6 +7,16 @@
   "exports": {
     ".": "./src/ym2612.js"
   },
-  "keywords": ["ym2612", "opn2", "fm", "sound chip", "emulator", "audio worklet", "web audio", "mega drive", "genesis"],
+  "keywords": [
+    "ym2612",
+    "opn2",
+    "fm",
+    "sound chip",
+    "emulator",
+    "audio worklet",
+    "web audio",
+    "mega drive",
+    "genesis"
+  ],
   "license": "MIT"
 }

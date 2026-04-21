@@ -21,23 +21,23 @@ pnpm add @soundchips/ym2612
 Or import directly from a CDN (no build step required):
 
 ```js
-import { YM2612, NATIVE_SAMPLE_RATE } from 'https://esm.sh/@soundchips/ym2612';
+import { YM2612, NATIVE_SAMPLE_RATE } from "https://esm.sh/@soundchips/ym2612";
 ```
 
 ## API
 
 ```js
-import { YM2612, NATIVE_SAMPLE_RATE } from '@soundchips/ym2612';
+import { YM2612, NATIVE_SAMPLE_RATE } from "@soundchips/ym2612";
 
 const chip = new YM2612();
 
 // Write a register (same as hardware register writes)
-chip.write(port, addr, data);  // port: 0 = ch1-3, 1 = ch4-6
+chip.write(port, addr, data); // port: 0 = ch1-3, 1 = ch4-6
 
 // Generate samples
 const bufL = new Float32Array(128);
 const bufR = new Float32Array(128);
-chip.clock(bufL, bufR, 128);  // fills bufL/bufR with [-1, 1] float samples
+chip.clock(bufL, bufR, 128); // fills bufL/bufR with [-1, 1] float samples
 
 // Reset
 chip.reset();
