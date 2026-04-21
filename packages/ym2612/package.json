@@ -1,0 +1,12 @@
+{
+  "name": "@soundchips/ym2612",
+  "version": "0.1.0",
+  "description": "YM2612 (OPN2) FM sound chip emulator in pure JavaScript — for AudioWorklet and Web Audio API",
+  "type": "module",
+  "main": "src/ym2612.js",
+  "exports": {
+    ".": "./src/ym2612.js"
+  },
+  "keywords": ["ym2612", "opn2", "fm", "sound chip", "emulator", "audio worklet", "web audio", "mega drive", "genesis"],
+  "license": "MIT"
+}

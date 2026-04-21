@@ -1,0 +1,11 @@
+{
+  "name": "soundchips",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Pure JavaScript sound chip emulators for AudioWorklet and Web Audio API",
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test"
+  },
+  "devDependencies": {}
+}
