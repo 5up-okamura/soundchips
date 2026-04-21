@@ -6,11 +6,12 @@ No dependencies. No build step. Works in any modern browser.
 
 ## Packages
 
-| Package                                 | Chip          | System          | Type                  |
-| --------------------------------------- | ------------- | --------------- | --------------------- |
-| [`@soundchips/ym2612`](packages/ym2612) | YM2612 (OPN2) | Sega Mega Drive | FM, 6ch × 4 operators |
+| Package                                   | Chip          | System                          | Type                          |
+| ----------------------------------------- | ------------- | ------------------------------- | ----------------------------- |
+| [`@soundchips/ym2612`](packages/ym2612)   | YM2612 (OPN2) | Sega Mega Drive                 | FM, 6ch × 4 operators         |
+| [`@soundchips/sn76489`](packages/sn76489) | SN76489       | Sega Mega Drive / SMS / Game Gear | PSG, 3× square + 1× noise  |
 
-More chips planned: SN76489 (PSG), YM2151 (OPM), YM2413 (OPLL), SID 6581, 2A03, HuC6280.
+More chips planned: YM2151 (OPM), YM2413 (OPLL), SID 6581, 2A03, HuC6280.
 
 ## Usage
 

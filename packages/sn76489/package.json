@@ -1,0 +1,25 @@
+{
+  "name": "@soundchips/sn76489",
+  "version": "0.1.0",
+  "description": "SN76489 (PSG) sound chip emulator in pure JavaScript — for AudioWorklet and Web Audio API",
+  "type": "module",
+  "main": "src/sn76489.js",
+  "exports": {
+    ".": "./src/sn76489.js"
+  },
+  "keywords": [
+    "sn76489",
+    "psg",
+    "square wave",
+    "noise",
+    "sound chip",
+    "emulator",
+    "audio worklet",
+    "web audio",
+    "mega drive",
+    "genesis",
+    "sms",
+    "master system"
+  ],
+  "license": "MIT"
+}
